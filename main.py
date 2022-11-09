@@ -9,7 +9,7 @@ class Twitch:
     def __init__(self):
         self.token = str()
         self.client_id = os.environ['CLIENT_ID']
-        self.favorite_streamer = ['https://www.twitch.tv/tonton', 'https://www.twitch.tv/jeeltv']
+        self.favorite_streamer = ['streamer twitch url']
 
     def gettoken(self) -> string:
         """get app access token"""
